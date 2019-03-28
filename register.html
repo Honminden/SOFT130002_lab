@@ -8,37 +8,35 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">主页</a></li>
-            </ul>
+            <a href="index.html">主页</a></li>
         </nav>
     </header>
     <h1>创建帐户</h1>
     <section>
 
         <form action="#" method="post">
-            <p><label for="username">用户名</label></p>
-            <input id="username" name="username" type="text" required pattern="([A-z]|[0-9]|_)+">
+            <p><label for="username">用户名</label><br>
+            <input id="username" name="username" type="text" required pattern="([A-z]|[0-9]|_)+"></p>
 
-            <p><label for="password">密码</label></p>
-            <input id="password" name="password" type="password" required pattern="([A-z]|[0-9]|_){8,}">
+            <p><label for="password">密码</label><br>
+            <input id="password" name="password" type="password" required pattern="([A-z]|[0-9]|_){8,}"></p>
 
-            <p><label for="confirm_pwd">确认密码</label></p>
-            <input id="confirm_pwd" name="confirm_pwd" type="password" required pattern="([A-z]|[0-9]|_){8,}">
+            <p><label for="confirm_pwd">确认密码</label><br>
+            <input id="confirm_pwd" name="confirm_pwd" type="password" required pattern="([A-z]|[0-9]|_){8,}"></p>
 
-            <p><label for="region">居住地</label></p>
+            <p><label for="region">居住地</label><br>
             <select id="region">
                 <option>黑龙江</option>
                 <option>北京</option>
                 <option selected>上海</option>
                 <option>福建</option>
                 <option>广东</option>
-            </select>
+            </select></p>
 
-            <p><label for="phone">手机号</label></p>
-            <input id="phone" name="phone" type="text" required pattern="1[0-9]{10,10}">
+            <p><label for="phone">手机号</label><br>
+            <input id="phone" name="phone" type="text" required pattern="1[0-9]{10,10}"></p>
 
-            <p>常用设备</p>
+            <p>常用设备<br>
 
             <input id="PC" name="PC" type="checkbox">
             <label for="PC">PC</label>
@@ -50,9 +48,9 @@
             <label for="XBox One">XBox One</label>
 
             <input id="Nintendo Switch" name="Nintendo Switch" type="checkbox">
-            <label for="Nintendo Switch">Nintendo Switch</label>
+            <label for="Nintendo Switch">Nintendo Switch</label></p>
 
-            <p><label for="terms">注册条款</label></p>
+            <p><label for="terms">注册条款</label><br>
             <textarea id="terms" name="terms" rows="20" readonly>
 1、本站服务条款
 本站提供的服务将完全按照服务条款严格执行。用户必须完全同意所有服务条款并完成注册程序，才能成为本站的正式用户。
@@ -119,9 +117,9 @@
 网络服务条款要与中华人民共和国的法律解释相一致，用户和本站一致同意服从高等法院所有管辖。如发生本站服务条款与中华人民共和国法律相抵触时，则这些条款将完全按法律规定重新解释，而其它条款则依旧保持对用户产生法律效力和影响。</textarea>
             <br>
             <input id="terms" name="terms" type="radio" value="agree" required><span>同意</span>
-            <input id="terms" name="terms" type="radio" value="disagree"><span>不同意</span><br>
+            <input id="terms" name="terms" type="radio" value="disagree"><span>不同意</span></p>
 
-            <p><label for="check">验证</label></p>
+            <p><label for="check">验证</label><br>
             <textarea id="terms" name="terms" rows="10" readonly>
                  ,-""""-.
                ,'      _ `.
@@ -134,11 +132,9 @@
                    `.,'
                     /\`.   ,-._
                         `-'
-            </textarea>
-            <p><em>请用英文拼写上面物品的名称</em></p>
-            <input id="check" name="check" type="text" required pattern="balloon">
-
-            <br><br>
+            </textarea></p>
+            <p><em>请用英文拼写上面物品的名称</em><br>
+            <input id="check" name="check" type="text" required pattern="balloon"></p>
 
             <input type="submit" value="注册">
         </form>
